@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ---------------------------------------Menú_PPL----------------------------------------- */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.cont__nav {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+    box-shadow: 0px 5px 10px 1px #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    margin: 0 8px;
+}
+
+.nav__link {
+    padding: 10px;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.nav__link:hover {
+    background-color: #20d0ce;
+    color: #fff;
+}
+
+.header__toggle,
+.header__close {
+    display: none;
+}
+
+/* ---------------------------------------Sección_Hero----------------------------------------- */
+
+header {
+    width: 100vw;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(128, 128, 128, 0.034)),
+        url(/imagenes/bg_SectionHero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header .hero {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagen_fisioterapeuta {
+    display: block;
+    margin-top: 54px;
+    width: 450px;
+    filter: drop-shadow(7px 1px 5px #FFFFFF);
+}
+
+.textos_hero {
+    width: 50%;
+}
+
+.textos_hero h1 {
+    font-size: 70px;
+    line-height: 75px;
+    color: #fff;
+    text-shadow: 7px 1px 5px rgba(0, 0, 0, 0.671);
+}
+
+.texto_ppl2 {
+    font-size: 70px;
+}
+
+.subtitulo_hero {
+    margin-top: 15px;
+    font-size: 29px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 7px 1px 5px rgba(0, 0, 0, 0.671);
+}
+
+/* ---------------------------------------Patrones(textos-contenedores)----------------------------------------- */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------Sec1----------------------------------------- */
+
+.sec1 {
+    background-image: linear-gradient(rgba(15, 54, 59, 0.438), rgba(32, 120, 136, 0.753)), url(/imagenes/brush\ marcas\ Dra.\ Andrea.jpg);
+    background: #edfffd;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.titulo_sec1 {
+    text-align: center;
+    padding: 25px 0px 35px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #313944;
+
+}
+
+.markint {
+    margin-top: -10px;
+    margin: 0 30px 30px;
+}
+
+.marca1_empresa {
+    width: 180px;
+}
+
+.marca2_empresa {
+    width: 200px;
+}
+
+.marca3_empresa {
+    width: 200px;
+}
+
+.cont_marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------------------------------Sec2----------------------------------------- */
+.sec2 {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #EDFFFD 13%, #F9F9F9B0 100%);
+    opacity: 1;
+}
+
+.titulo_sec2 {
+    font-size: 57px;
+    line-height: 80px;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.texto_comun_sec2 {
+    text-align: center;
+    padding: 0 25px 0 25px;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.cont_wp img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    width: 35%;
+}
+
+
+/* ---------------------------------------footer----------------------------------------- */
+
+.footer {
+    background: #125873;
+    height: 100%;
+}
+
+.cont__grl__footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0 50px 0;
+}
+
+.seccionfooter_seccion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.seccionfooter_seccion4{
+    padding: 50px 30px;
+}
+
+.seccionfooter_google{
+    padding: 30px;
+}
+
+
+.logo__footer__tf {
+    display: block;
+    filter: invert(1);
+    width: 350px;
+    padding-bottom: 15px;
+}
+
+.column1__direction__texto {
+    color: #abb8c3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.column1__telefono__imagen {
+    padding-top: 30px;
+    width: 17px;
+}
+
+.column1__telefono__enlace {
+    text-decoration: none;
+    color: #abb8c3;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 300px;
+}
+
+.column1__telefono__enlace:hover {
+    transition: 0.3s;
+    color: #fff;
+}
+
+.column4__title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+
+.column__item a {
+    text-decoration: none;
+    color: #abb8c3;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.column__item a:hover {
+    transition: 0.3s;
+    color: #fff;
+}
+
+.texto__redes {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #abb8c3;
+    padding-bottom: 10px;
+}
+
+.icon__redes {
+    filter: invert(0.3);
+    padding-bottom: 25px;
+}
+
+.icon__redes:hover {
+    transition: 0.3s;
+    filter: invert(0);
+}
+
+.google__reviews {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title__reviews {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+}
+
+.cont__reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.puntaje,
+.cantidad__personas {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.poweredgoogle {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    padding-top: 15px;
+}
+
+.footer__site {
+    background: #125873;
+
+}
+
+.cont__terminos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #abb8c39f;
+    padding: 30px;
+}
+
+.copyright {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #abb8c3;
+}
+
+.enlace__terminos {
+    text-decoration: none;
+    color: #abb8c3;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 21px;
+}
+/* ---------------------------------------BotónWP----------------------------------------- */
+.container__botonw{
+    background-color: #24CC63;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: efectoBotonW 1.2s infinite;
+}
+
+.container__botonw:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.botonwp{
+    color: #fff;
+    font-size: 40px;
+    transition: ease 1s;
+}
+
+/* -----------------------------Media_query_Menú-------------------------------------- */
+@media (max-width: 768px) {
+
+    .cont__nav {
+        height: 65px;
+        justify-content: space-between;
+        padding: 0 28px;
+    }
+
+    .logo img {
+        width: 260px;
+    }
+
+    .header__toggle {
+        display: inline;
+        color: #000;
+        font-size: 24px;
+    }
+
+    .header__close {
+        position: absolute;
+        color: #fff;
+        border: 1px solid #fff;
+        right: 24px;
+        display: block;
+        font-size: 24px;
+        border-radius: 50%;
+    }
+
+    .header__close:hover {
+        background-color: #1AA1A5;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: rgb(46, 46, 46);
+        width: 100%;
+        height: 100vh;
+        padding: 24px 0;
+        z-index: 100;
+        transition: 0.5s;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__item {
+        margin: 2rem 0;
+    }
+
+    .nav__link {
+        color: #fff;
+    }
+
+    .show {
+        right: 0;
+    }
+}
+
+/* -----------------------------Media_query_1024px-------------------------------------- */
+
+@media (min-width: 1024px) {
+
+    .cta__img {
+        width: 100%;
+    }
+
+    .columns {
+        gap: 20px;
+    }
+
+    .logo__footer__tf {
+        width: 250px;
+    }
+
+    .google__reviews {
+        width: 300px;
+    }
+
+    .puntaje,
+    .cantidad__personas {
+        font-size: 16px;
+    }
+}
+
+/* -----------------------------Media_query_767-1023-------------------------------------- */
+
+
+@media (min-width:767px) and (max-width:1023px) {
+
+    .imagen_fisioterapeuta {
+        width: 320px;
+        margin-top: 79px;
+    }
+
+    .textos_hero {
+        width: 50%;
+    }
+
+    .textos_hero h1 {
+        font-size: 60px;
+        line-height: 45px;
+    }
+
+    .texto_ppl2 {
+        font-size: 55px;
+    }
+
+    .subtitulo_hero {
+        font-size: 25px;
+    }
+
+    .cont_wp img {
+        padding-bottom: 40px;
+        width: 70%;
+    }
+
+    .puntaje,
+    .cantidad__personas {
+        font-size: 16px;
+    }
+
+    .footer__site {
+        background: #125873;
+
+    }
+
+    .cont__terminos {
+        flex-direction: column;
+    }
+}
+
+/* -----------------------------Media_query_766-------------------------------------- */
+
+@media (max-width:767px) {
+
+    header .hero {
+        flex-direction: column;
+    }
+
+    .imagen_fisioterapeuta {
+        margin-top: 15px;
+        width: 300px;
+    }
+
+    .textos_hero {
+        width: 70%;
+    }
+
+    .textos_hero h1 {
+        padding-top: 50px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .texto_ppl2 {
+        font-size: 40px;
+    }
+
+    .subtitulo_hero {
+        margin-top: 15px;
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 300;
+    }
+
+    .markint {
+        margin: 0 10px 10px;
+    }
+
+    .marca1_empresa {
+        width: 110px;
+    }
+
+    .marca2_empresa {
+        width: 100px;
+    }
+
+    .marca3_empresa {
+        width: 85px;
+    }
+
+    .titulo_sec2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .texto_comun_sec2 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .cont_wp img {
+        padding-bottom: 35px;
+        width: 100%;
+    }
+
+
+    .cont__cta {
+        margin-bottom: 50px;
+    }
+    
+    .cta__img {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .cont__grl__footer {
+        flex-direction: column;
+        padding: 30px 0 30px 0;
+    }
+
+    .seccionfooter_seccion1{
+        align-items: flex-start;
+        padding: 0px;
+    }
+
+    .seccionfooter_seccion4{
+        padding: 20px 0px 0px 0px;
+    }
+
+    .logo__footer__tf {
+        width: 300px;
+    }
+   
+    .cont__terminos {
+        flex-direction: column;
+    }
+    
+    .copyright {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+}
+
+/* ------------------------------------------------------------------animacion botonWP---------------------------------- */
+
+@keyframes efectoBotonW{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+
+    }
+}
